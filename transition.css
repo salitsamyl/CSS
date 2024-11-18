@@ -1,0 +1,55 @@
+
+body{
+	background: yellow;
+	font-family: roboto;
+	text-align: center;
+}
+ 
+h1{
+	color: #fff;
+}
+ 
+div{
+	margin: 10px;
+}
+ 
+.kotak{
+    
+	background: red;
+	width: 100px;
+	height: 100px;
+	transition: width 1s;
+	-webkit-transition: width 1s;
+}
+ 
+.kotak:hover{
+	width: 300px;
+}
+ 
+.kotak2{
+    background: url('sipa.jpg') no-repeat center center;
+    background-size: cover;
+	width: 100px;
+	height: 100px;
+	transition: width 1s, height 2s;
+	-webkit-transition: width 1s, height 2s;
+}
+ 
+.kotak2:hover{
+	width: 500px;
+	height: 500px;
+}
+
+.box1{
+    position : relative;
+    animation : gerak 100s ease;
+}
+@keyframes gerak{
+    from{left : 20px;}
+    30%{left : 800px;}
+    to{left : 800px;}
+}
+
+
+
+
